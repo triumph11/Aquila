@@ -16,23 +16,29 @@
 </head>
 <body class="bg-zinc-50 text-zinc-900">
 
-    <!-- NAVBAR -->
+       <!-- NAVBAR - Mobile Fixed -->
     <nav class="bg-white border-b sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
             <div class="flex items-center gap-x-3">
-                <img src="logo.png" alt="Aquila Ventures Logo" class="h-12 w-auto">
-                <div class="logo-font text-3xl font-semibold tracking-tighter text-[#0A2540]">AQUILA</div>
+                <img src="logo.png" alt="Aquila Ventures Logo" class="h-10 w-auto">
+                <div class="logo-font text-2xl md:text-3xl font-semibold tracking-tighter text-[#0A2540]">AQUILA</div>
             </div>
+            
             <div class="hidden md:flex items-center gap-x-8 text-sm font-medium">
                 <a href="#services" class="hover:text-[#0A2540]">Services</a>
                 <a href="#about" class="hover:text-[#0A2540]">About</a>
                 <a href="#faq" class="hover:text-[#0A2540]">Questions</a>
                 <a href="#contact" class="hover:text-[#0A2540]">Contact</a>
             </div>
-            <a href="#contact" class="bg-[#0A2540] text-white px-6 py-3 rounded-xl font-semibold text-sm hover:bg-[#1E3A5F] flex items-center gap-x-2">
-                <i class="fa-solid fa-phone"></i> GET YOUR $50 AUDIT
+
+            <a href="#contact" 
+               class="bg-[#0A2540] text-white px-5 py-3 rounded-xl font-semibold text-sm md:text-base hover:bg-[#1E3A5F] transition-all flex items-center gap-x-2 whitespace-nowrap">
+                <i class="fa-solid fa-phone"></i>
+                <span class="hidden sm:inline">GET YOUR $50 AUDIT</span>
+                <span class="sm:hidden">$50 AUDIT</span>
             </a>
         </div>
+    </nav>
     </nav>
 
     <!-- HERO -->
